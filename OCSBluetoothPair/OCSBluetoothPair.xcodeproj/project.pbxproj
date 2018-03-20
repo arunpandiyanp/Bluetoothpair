@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED1E5A5B205F96FF00A0A36A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1E5A5A205F96FF00A0A36A /* AppDelegate.m */; };
+		ED1E5A5E205F96FF00A0A36A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1E5A5D205F96FF00A0A36A /* ViewController.m */; };
+		ED1E5A61205F96FF00A0A36A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1E5A5F205F96FF00A0A36A /* Main.storyboard */; };
+		ED1E5A64205F96FF00A0A36A /* OCSBluetoothPair.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED1E5A62205F96FF00A0A36A /* OCSBluetoothPair.xcdatamodeld */; };
+		ED1E5A66205F96FF00A0A36A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED1E5A65205F96FF00A0A36A /* Assets.xcassets */; };
+		ED1E5A69205F96FF00A0A36A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1E5A67205F96FF00A0A36A /* LaunchScreen.storyboard */; };
+		ED1E5A6C205F96FF00A0A36A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1E5A6B205F96FF00A0A36A /* main.m */; };
+		ED1E5A78205FB49400A0A36A /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1E5A77205FB49400A0A36A /* ScanViewController.m */; };
+		EDE535A12060D25D0037EB81 /* default.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EDE535A02060D25C0037EB81 /* default.aiff */; };
+		EDE535A72061089F0037EB81 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE535A62061089F0037EB81 /* MediaPlayer.framework */; };
+		EDE535A8206109560037EB81 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED1E5A73205F972300A0A36A /* CoreBluetooth.framework */; };
+		EDE535A920610B2E0037EB81 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE5359E2060D0E00037EB81 /* AVFoundation.framework */; };
+		EDE535AB206122790037EB81 /* zapsplat_emergency_alarm_siren.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDE535AA206122790037EB81 /* zapsplat_emergency_alarm_siren.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED1E5A56205F96FE00A0A36A /* OCSBluetoothPair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCSBluetoothPair.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1E5A59205F96FE00A0A36A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED1E5A5A205F96FF00A0A36A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED1E5A5C205F96FF00A0A36A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED1E5A5D205F96FF00A0A36A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED1E5A60205F96FF00A0A36A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED1E5A63205F96FF00A0A36A /* OCSBluetoothPair.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OCSBluetoothPair.xcdatamodel; sourceTree = "<group>"; };
+		ED1E5A65205F96FF00A0A36A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED1E5A68205F96FF00A0A36A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED1E5A6A205F96FF00A0A36A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED1E5A6B205F96FF00A0A36A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED1E5A73205F972300A0A36A /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		ED1E5A76205FB49400A0A36A /* ScanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		ED1E5A77205FB49400A0A36A /* ScanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		EDE5359E2060D0E00037EB81 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EDE535A02060D25C0037EB81 /* default.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = default.aiff; sourceTree = "<group>"; };
+		EDE535A52060EF010037EB81 /* OCSBluetoothPair.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OCSBluetoothPair.entitlements; sourceTree = "<group>"; };
+		EDE535A62061089F0037EB81 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		EDE535AA206122790037EB81 /* zapsplat_emergency_alarm_siren.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zapsplat_emergency_alarm_siren.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED1E5A53205F96FE00A0A36A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE535A920610B2E0037EB81 /* AVFoundation.framework in Frameworks */,
+				EDE535A8206109560037EB81 /* CoreBluetooth.framework in Frameworks */,
+				EDE535A72061089F0037EB81 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED1E5A4D205F96FE00A0A36A = {
+			isa = PBXGroup;
+			children = (
+				ED1E5A58205F96FE00A0A36A /* OCSBluetoothPair */,
+				ED1E5A57205F96FE00A0A36A /* Products */,
+				ED1E5A72205F972300A0A36A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED1E5A57205F96FE00A0A36A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED1E5A56205F96FE00A0A36A /* OCSBluetoothPair.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED1E5A58205F96FE00A0A36A /* OCSBluetoothPair */ = {
+			isa = PBXGroup;
+			children = (
+				EDE535AA206122790037EB81 /* zapsplat_emergency_alarm_siren.mp3 */,
+				EDE535A52060EF010037EB81 /* OCSBluetoothPair.entitlements */,
+				EDE535A02060D25C0037EB81 /* default.aiff */,
+				ED1E5A75205FB46D00A0A36A /* ScanPage */,
+				ED1E5A59205F96FE00A0A36A /* AppDelegate.h */,
+				ED1E5A5A205F96FF00A0A36A /* AppDelegate.m */,
+				ED1E5A5C205F96FF00A0A36A /* ViewController.h */,
+				ED1E5A5D205F96FF00A0A36A /* ViewController.m */,
+				ED1E5A5F205F96FF00A0A36A /* Main.storyboard */,
+				ED1E5A65205F96FF00A0A36A /* Assets.xcassets */,
+				ED1E5A67205F96FF00A0A36A /* LaunchScreen.storyboard */,
+				ED1E5A6A205F96FF00A0A36A /* Info.plist */,
+				ED1E5A6B205F96FF00A0A36A /* main.m */,
+				ED1E5A62205F96FF00A0A36A /* OCSBluetoothPair.xcdatamodeld */,
+			);
+			path = OCSBluetoothPair;
+			sourceTree = "<group>";
+		};
+		ED1E5A72205F972300A0A36A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDE535A62061089F0037EB81 /* MediaPlayer.framework */,
+				EDE5359E2060D0E00037EB81 /* AVFoundation.framework */,
+				ED1E5A73205F972300A0A36A /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED1E5A75205FB46D00A0A36A /* ScanPage */ = {
+			isa = PBXGroup;
+			children = (
+				ED1E5A76205FB49400A0A36A /* ScanViewController.h */,
+				ED1E5A77205FB49400A0A36A /* ScanViewController.m */,
+			);
+			path = ScanPage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED1E5A55205F96FE00A0A36A /* OCSBluetoothPair */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1E5A6F205F96FF00A0A36A /* Build configuration list for PBXNativeTarget "OCSBluetoothPair" */;
+			buildPhases = (
+				ED1E5A52205F96FE00A0A36A /* Sources */,
+				ED1E5A53205F96FE00A0A36A /* Frameworks */,
+				ED1E5A54205F96FE00A0A36A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCSBluetoothPair;
+			productName = OCSBluetoothPair;
+			productReference = ED1E5A56205F96FE00A0A36A /* OCSBluetoothPair.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED1E5A4E205F96FE00A0A36A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = OclockSoftware;
+				TargetAttributes = {
+					ED1E5A55205F96FE00A0A36A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = ED1E5A51205F96FE00A0A36A /* Build configuration list for PBXProject "OCSBluetoothPair" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED1E5A4D205F96FE00A0A36A;
+			productRefGroup = ED1E5A57205F96FE00A0A36A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED1E5A55205F96FE00A0A36A /* OCSBluetoothPair */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED1E5A54205F96FE00A0A36A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1E5A69205F96FF00A0A36A /* LaunchScreen.storyboard in Resources */,
+				EDE535A12060D25D0037EB81 /* default.aiff in Resources */,
+				ED1E5A66205F96FF00A0A36A /* Assets.xcassets in Resources */,
+				ED1E5A61205F96FF00A0A36A /* Main.storyboard in Resources */,
+				EDE535AB206122790037EB81 /* zapsplat_emergency_alarm_siren.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED1E5A52205F96FE00A0A36A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1E5A5E205F96FF00A0A36A /* ViewController.m in Sources */,
+				ED1E5A78205FB49400A0A36A /* ScanViewController.m in Sources */,
+				ED1E5A5B205F96FF00A0A36A /* AppDelegate.m in Sources */,
+				ED1E5A6C205F96FF00A0A36A /* main.m in Sources */,
+				ED1E5A64205F96FF00A0A36A /* OCSBluetoothPair.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED1E5A5F205F96FF00A0A36A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED1E5A60205F96FF00A0A36A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED1E5A67205F96FF00A0A36A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED1E5A68205F96FF00A0A36A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED1E5A6D205F96FF00A0A36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED1E5A6E205F96FF00A0A36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED1E5A70205F96FF00A0A36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5P4V3MRB5L;
+				INFOPLIST_FILE = OCSBluetoothPair/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oclockapps.bluetoothpairs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9d76100c-3fed-4c39-85ed-585cbe367b54";
+				PROVISIONING_PROFILE_SPECIFIER = "Bluetooth-Devlopement";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED1E5A71205F96FF00A0A36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5P4V3MRB5L;
+				INFOPLIST_FILE = OCSBluetoothPair/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oclockapps.bluetoothpairs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "73d97134-4f19-4581-82cd-3fe58035303c";
+				PROVISIONING_PROFILE_SPECIFIER = "Bluetooth-Inhouse";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED1E5A51205F96FE00A0A36A /* Build configuration list for PBXProject "OCSBluetoothPair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1E5A6D205F96FF00A0A36A /* Debug */,
+				ED1E5A6E205F96FF00A0A36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1E5A6F205F96FF00A0A36A /* Build configuration list for PBXNativeTarget "OCSBluetoothPair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1E5A70205F96FF00A0A36A /* Debug */,
+				ED1E5A71205F96FF00A0A36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED1E5A62205F96FF00A0A36A /* OCSBluetoothPair.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED1E5A63205F96FF00A0A36A /* OCSBluetoothPair.xcdatamodel */,
+			);
+			currentVersion = ED1E5A63205F96FF00A0A36A /* OCSBluetoothPair.xcdatamodel */;
+			path = OCSBluetoothPair.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED1E5A4E205F96FE00A0A36A /* Project object */;
+}
